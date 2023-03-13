@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-classes</title>
+        <style>
+
+            /* 
+                # = id
+                . = class
+                : = pseudoclass
+                :: = pseuelemento
+                > = children
+            
+            */ 
+            div {
+                display: inline-block;
+                background-color: beige;
+                text-align: center;
+                border: 1px solid black;
+                height: 100px;
+                width: 500px;
+                
+            }
+
+            #diferente > p {
+                display: none;
+            }
+
+            div#diferente{
+                background-color: blue;
+            }
+            /* Pseudo-classes e elemento filho */
+            #diferente:hover > p {
+                display: grid;
+                background-image: linear-gradient(to top, red, blue, white);
+            }
+
+            div:hover{
+                background-color: yellow;
+            }
+
+            /* Pseudo-elementos */
+
+            
+            .tapanajega:hover {
+                background-color: blueviolet;
+            }
+            .tapanajega::after {
+                content: '♥';
+
+            }
+
+        </style>
+</head>
+<body>
+    <div>1</div>   
+    <div>2</div> 
+        <h1>Exemplo de uso ">" filho</h1>
+        <div id="diferente">
+            Clique aqui
+            <p>Exemplo</p>
+        </div>
+
+    <h1>Personalizando links</h1>
+    <ul>
+        <li type="circle"><a href="https://www.w3schools.com/cssref/pr_background-image.php" class="tapanajega">Link 1</a></li>
+        <li>Link 2</li>
+
+    </ul>
+
+        
+
+
+</body>
+</html>

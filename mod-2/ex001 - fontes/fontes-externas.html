@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inserção de fontes EXTERNAS</title>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500&display=swap');
+                /*Maneira de importar fontes direto do google fonte, ou por outros links */
+            @font-face {
+                font-family:'Midspicy' ;
+                src: url(Midspicy\ Regular.ttf) format(truetype);
+                font-weight: normal;
+                font-style: normal;
+            }
+                /*Maneira de importar fontes por arquivos locais
+                Tipos de format: 
+                truetype (ttf)
+                opentype (otf)
+                embedded opentype (Apple Advanced Typhography)
+                svg
+                */
+            
+            body {
+                font-family: 'Golos Text', sans-serif;
+            }
+            h2 {
+                font-family: 'Midspicy', Verdana, sans-serif;
+            }
+        </style>
+</head>
+<body>
+    <h1>Fontes externas - Como inserir</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis adipisci assumenda, ex fugiat deleniti quidem ipsa quis. Eveniet, soluta fugit, deserunt sunt, animi incidunt id iure architecto quis fugiat repudiandae!</p>
+    <h2>Fontes de imporação arquivos locais</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum eaque nemo sed saepe, accusamus cum aut reiciendis molestiae doloribus culpa error magni minima reprehenderit, inventore velit ex ipsa ipsam neque.</p>
+</body>
+</html>

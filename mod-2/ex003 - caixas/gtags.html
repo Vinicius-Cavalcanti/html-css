@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        .textonoticias {
+            text-indent: 20px;
+            text-align: justify;
+            padding: 0px 8px 0px 8px;
+            font-size: 13px;
+            margin: 0;
+        }
+
+        body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            background-color: rgb(95, 90, 84);
+        }
+
+        header {
+            background-color: blanchedalmond;
+            box-shadow: 0px 0px 10px 1px rgb(70, 63, 63);
+            padding: 5px;
+        }
+
+        header > nav {
+            background-color: rgb(121, 113, 101);
+            padding: 5px;
+            border-radius: 5px;
+            height: 20px;
+            width: 200px;
+            display: block;
+            margin: 0 auto;
+            text-align: center;
+            box-shadow: 0px 0px 10px 1px rgb(70, 63, 63);
+            
+        }
+
+        nav > a {
+    
+            color: blanchedalmond;
+            text-decoration: none;
+            padding-left: 4px;
+            font-size: 0.9em; 
+        }
+        
+        nav > a:hover {
+            color: rgb(131, 131, 131);
+            text-decoration: wavy;
+        }
+
+        main {
+            background-color: blanchedalmond;
+            padding: 1px 3px 1px 3px;  
+            margin-top: 5px;
+            box-shadow: 0px 0px 10px 1px rgb(70, 63, 63);
+        }
+        
+        main > section > h1 {
+            margin-left: 15px;
+            font-size: 26px;
+            margin: 7px;
+            font-style: italic;
+        }
+
+ 
+        footer.texto {
+            background-color: blanchedalmond;
+            height: 70px;
+            padding: 10px;
+            box-shadow: 0px 0px 10px 1px rgb(70, 63, 63);
+            margin-top: 10px;
+            font-weight: 700;
+            font-size: 10px;
+            text-align: center;
+            position: static;
+        }
+
+        .texto-imagem {
+            height: 50px;
+            position: relative;
+            margin-bottom: 10px;
+        }
+
+            
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="assuntos"></section>
+        <section id="noticias">
+            <H1>Muito doido</H1>
+            <article class="textonoticias">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum cum sequi qui aperiam repellendus, vero neque, voluptatibus accusantium, ipsam quibusdam ut nam eaque facilis doloremque commodi ad ex atque mollitia.</p>
+                <aside>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, labore totam. Accusantium consequuntur vel dignissimos saepe veritatis perspiciatis facere obcaecati doloribus autem excepturi alias, eveniet cupiditate! Accusantium explicabo vitae ratione?</p>
+                </aside>
+            </article>
+        </section>
+
+    </main>
+
+    <footer class="texto">
+        <p>Produzido por Perisão do Volei</p>
+        <img class="texto-imagem" src="pngegg.png" alt="logoperisao" >
+
+    </footer>
+</body>
+</html>

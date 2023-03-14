@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#conteudo {
+    width: 1000px;
+    height: 400px;
+    padding: 30px;
+    background-color: azure;
+}
+
+.imagem1 {
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+}
+
+.src1 {
+    width: 200px;
+    height: 200px;
+    display: block;
+    padding-left: 10px;
+}
+
+.textoembaixo {
+    font-size: 12px;
+    padding: 5px;
+    margin-left: 4px;
+    text-transform: uppercase;
+}
+
+.linkembaixo {
+    max-width: 200px;
+    display: block;
+    text-decoration: none;
+    padding: 7px;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centralização vertical de Caixas</title>
+    <style>
+        .container {
+            height: 500px;
+            background-color: lightpink;
+            position: relative;
+            background: url(imagens/target001.png);
+            background-size: 100% 100%;
+        }
+        .conteudo {
+            height: 200px;
+            background-color: lightgreen;
+            width: 400px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+
+        }  
+    </style>
+</head>
+<body>
+    <section class="container">
+        <article class="conteudo">
+
+        </article>
+    </section>
+    
+</body>
+</html>

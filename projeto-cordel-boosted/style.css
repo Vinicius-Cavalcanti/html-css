@@ -3,8 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
 html {
     font-size: 62.5%;
+    font-family: sans-serif;
 }
 :root {
     --corprincipal: #FFEFB0;
@@ -12,18 +15,40 @@ html {
     --corlaranja: #FF953B;
 }
 
-#cabeça {
-    background-color: var(--corprincipal);
-    min-width: 40rem;
-    max-width: 100vw;
+header#cabeça { 
+    background-color: #FF953B;
+    min-width: 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
     height: 10rem;
-    font-size: 1.5rem;
-    text-align: center;
+    box-shadow: inset 0px -5px 22px -7px var(--corpreta);
 }
-
 
 .imgprincipal {
     width: 15rem;
-    display: block;
+}
 
+.imglink{
+    
+}
+
+.menu > a {
+    margin-left: 2.1rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: white;
+    font-variant: small-caps;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.menu > a:hover {
+    background-color: var(--corprincipal);
+    border-radius: 2rem;
+    padding: 0.7rem;
+    color: var(--corpreta);
+    transition-duration: 0.5s;
+    font-size: 1.7rem;
+    text-shadow: 2px 1px 3.5px #211d1585;
 }

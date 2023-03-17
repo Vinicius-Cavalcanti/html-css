@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+html {
+    font-size: 62.5%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --cinza:#D4CDC4;
+    --branco:#FFFFFF;
+    --preto:#1b1c1d;
+}
+
+.menuprincipal {
+    max-width: 100%;
+    min-width: 20rem;
+    height: 8rem;
+    background-color: var(--preto);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.logo {
+    width: 10rem;
+    height: 10rem;
+    
+}

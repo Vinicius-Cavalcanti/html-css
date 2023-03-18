@@ -4,15 +4,25 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: 'Cordelina';
+    src: url(cordelina/cordelina.otf);
+    font-weight: normal;
+    font-style: normal;
+}
 
 html {
     font-size: 62.5%;
     font-family: sans-serif;
+    scroll-behavior: smooth;
+    overflow-y: visible;
 }
 :root {
     --corprincipal: #FFEFB0;
     --corpreta: #211D15;
     --corlaranja: #FF953B;
+    --fontitulo: 'Cordelina';
+    --fontexto: 'Poppins';
 }
 
 header#cabeça { 
@@ -29,9 +39,7 @@ header#cabeça {
     width: 15rem;
 }
 
-.imglink{
-    
-}
+
 
 .menu > a {
     margin-left: 2.1rem;
@@ -51,4 +59,66 @@ header#cabeça {
     transition-duration: 0.5s;
     font-size: 1.7rem;
     text-shadow: 2px 1px 3.5px #211d1585;
+    box-shadow: 0px 20px 10px -15px #976131;
 }
+
+#conteuprin {
+    
+}
+
+.part1 {
+    height: 50rem;
+    background-image: url(teste.jpg);
+    background-position: right bottom;
+    background-repeat: no-repeat;   
+    width: 100%;
+    min-width: 40rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.textop1 {
+    height: 40rem;
+    width: 50rem;
+    padding: 2rem;
+    margin-block-start: 8rem; 
+}
+
+.titulo {
+    font-family: 'Cordelina';
+    font-size: 5rem;
+    color: var(--corpreta);
+    text-shadow: 1px 3px 2px #4622035b;
+    margin: 1rem;
+}
+.textoprincipal {
+    font-family: 'Poppins';
+    font-size: 1.3rem ;
+    margin: 1rem;
+    text-align: justify;
+}
+.textoprincipal > summary {
+    font-weight: bold;
+    text-shadow: 1px 2px 3px #58585875;
+}
+
+.botao1{
+    width: 5rem;
+    height: 5rem;
+    background-color: transparent;
+    border-color: transparent;
+    display: block
+;
+}
+.botao1 > a > img {
+    width: 5rem;
+    height: 5rem;
+    
+
+}
+/* Colocar hover no botao */
+#part2 {
+    height: 40rem;
+    background: #211D15;
+}
+

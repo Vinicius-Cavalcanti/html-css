@@ -39,8 +39,6 @@ header#cabeça {
     width: 15rem;
 }
 
-
-
 .menu > a {
     margin-left: 2.1rem;
     font-family: 'Poppins', sans-serif;
@@ -63,25 +61,26 @@ header#cabeça {
 }
 
 #conteuprin {
-    
-}
-
-.part1 {
-    height: 50rem;
-    background-image: url(teste.jpg);
-    background-position: right bottom;
-    background-repeat: no-repeat;   
-    width: 100%;
-    min-width: 40rem;
+    max-width: 100%;
+    min-width: 30rem;
     display: flex;
     flex-direction: column;
 }
 
+
+.part1 {
+    height: 45rem;
+    min-width: 20rem;
+    background-image: url(teste2.jpg);
+    background-position: top right;
+    background-repeat: no-repeat;  
+}
+
 .textop1 {
-    height: 40rem;
     width: 50rem;
-    padding: 2rem;
-    margin-block-start: 8rem; 
+    display: inline-block;
+    min-width: 20rem;
+    margin-top: 3.5rem;
 }
 
 .titulo {
@@ -91,6 +90,7 @@ header#cabeça {
     text-shadow: 1px 3px 2px #4622035b;
     margin: 1rem;
 }
+
 .textoprincipal {
     font-family: 'Poppins';
     font-size: 1.3rem ;
@@ -113,10 +113,14 @@ header#cabeça {
 .botao1 > a > img {
     width: 5rem;
     height: 5rem;
-    
-
 }
-/* Colocar hover no botao */
+
+.botao1 a img:hover {
+    width: 5.8rem;
+    height: 5.8rem;
+    transition-duration: 0.5s;
+}
+
 #part2 {
     height: 40rem;
     background: #211D15;
